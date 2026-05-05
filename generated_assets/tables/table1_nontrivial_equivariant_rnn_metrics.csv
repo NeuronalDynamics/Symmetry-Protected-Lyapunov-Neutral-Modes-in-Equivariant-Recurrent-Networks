@@ -1,0 +1,5 @@
+diagnostic,exact_branch,broken_control
+max equivariance error,5.413e-16,1.831e-02
+max |direct group-tangent exponent|,5.304e-13,2.626e-02
+max tangent covariance angle (deg),1.207e-06,not a protected subspace
+protected near-zero count match,True,zero mode removed

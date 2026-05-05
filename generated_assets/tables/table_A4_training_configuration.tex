@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Learned path-integration training configuration.}
+\label{tab:training-config}
+\begin{tabular}{lllllll}
+\toprule
+model & runs & seeds & hidden_size & train_steps & learning_rate & parameter_count \\
+\midrule
+broken\_equivariant & 24 & 6 & 16 & 120 & 0.003 & 1237 \\
+equivariant & 24 & 6 & 16 & 120 & 0.003 & 1237 \\
+gru & 24 & 6 & 16 & 120 & 0.002 & 994 \\
+lstm & 24 & 6 & 16 & 120 & 0.002 & 1346 \\
+orthogonal\_rnn & 24 & 6 & 16 & 120 & 0.002 & 386 \\
+\bottomrule
+\end{tabular}
+\end{table}

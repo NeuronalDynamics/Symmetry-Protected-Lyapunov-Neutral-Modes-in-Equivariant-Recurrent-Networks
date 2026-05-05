@@ -1,0 +1,9 @@
+model,q,rank_EG,rank_flow_plus_EG,angle_flow_to_EG_deg,independent_group_dirs,theorem_level
+S1Attractor,1,1,1,nan,1,True
+T2Attractor,2,2,2,nan,2,True
+S1CoupledIrrepAttractor,1,1,1,nan,1,True
+SONSphereAttractor_n3,2,2,2,nan,2,True
+SONSphereAttractor_n5,4,4,4,nan,4,True
+UMSphereAttractor_m3,5,5,5,nan,5,True
+PhaseIntegrator_constant_velocity,1,1,1,0.0,0,False
+CollapseCounterexample,0,1,2,90.0,1,False

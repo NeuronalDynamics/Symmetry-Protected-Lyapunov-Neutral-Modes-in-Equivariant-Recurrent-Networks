@@ -1,0 +1,13 @@
+model,config,phase,horizon,speed,mean_rmse,sem,n_seeds
+gru,original_budget,full,256,1.8,1.748,0.023,3
+gru,original_budget,restricted,256,1.8,1.778,0.0078,3
+gru,stronger_budget,full,256,1.8,1.212,0.026,3
+gru,stronger_budget,restricted,256,1.8,1.619,0.019,3
+lstm,original_budget,full,256,1.8,1.73,0.021,3
+lstm,original_budget,restricted,256,1.8,1.801,0.02,3
+lstm,stronger_budget,full,256,1.8,1.156,0.029,3
+lstm,stronger_budget,restricted,256,1.8,1.678,0.032,3
+orthogonal_rnn,original_budget,full,256,1.8,1.79,0.0079,3
+orthogonal_rnn,original_budget,restricted,256,1.8,1.805,0.012,3
+orthogonal_rnn,stronger_budget,full,256,1.8,1.749,0.0064,3
+orthogonal_rnn,stronger_budget,restricted,256,1.8,1.789,0.012,3

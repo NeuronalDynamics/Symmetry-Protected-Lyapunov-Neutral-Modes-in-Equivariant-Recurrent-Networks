@@ -1,0 +1,7 @@
+claim,evidence,role
+Theorem-level neutral modes,Theorem 1; Figures 1-3,primary
+Assumption necessity,Figures 2 and 4; Table A2,controls
+Explicit breaking opens pseudo-gaps,Figure 4; Figure A7,consequence
+Learned path-integration relevance,Figure 5; Tables A3-A5,task-level
+Finite-grid null,Figure A8,caveat
+Chaotic coexistence,Figures A9-A10,robustness diagnostic

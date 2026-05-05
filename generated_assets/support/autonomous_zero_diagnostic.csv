@@ -1,0 +1,9 @@
+model,group,stabilizer,orbit_dim_q,state_dim,flow_norm,flow_defined,rank_EG,rank_flow_plus_EG,projection_norm_over_flow_norm,angle_flow_to_EG_degrees,cosine_flow_each_generator,group_directions_independent_of_flow,theorem_level,notes
+S1Attractor,S1,trivial,1,2,0.0,False,1,1,nan,nan,[],1,True,"Attracting circle consists of equilibria, so f(x)=0 while the group tangent is nonzero."
+T2Attractor,T2,trivial,2,4,0.0,False,2,2,nan,nan,[],2,True,Attracting torus consists of equilibria with two independent group tangents.
+S1CoupledIrrepAttractor,weighted S1,trivial,1,14,0.0,False,1,1,nan,nan,[],1,True,Non-radial equivariant RNN-style orbit with a slaved second harmonic and hidden invariant rates.
+SONSphereAttractor_n3,SO(3),SO(2),2,3,1.1102230246251564e-16,False,2,2,nan,nan,[],2,True,SO(3)/SO(2) sphere example with nontrivial stabilizer.
+SONSphereAttractor_n5,SO(5),SO(4),4,5,1.1102230246251564e-16,False,4,4,nan,nan,[],4,True,Higher-dimensional SO(n)/SO(n-1) sphere example.
+UMSphereAttractor_m3,U(3),U(2),5,6,2.220446049250313e-16,False,5,5,nan,nan,[],5,True,U(m)/U(m-1) complex-sphere example represented in real coordinates.
+PhaseIntegrator_constant_velocity,S1,trivial,1,2,0.7,True,1,1,1.0,0.0,[1.0],0,False,Relative-equilibrium control: the autonomous flow direction coincides with the group tangent.
+CollapseCounterexample,SO(2),violated asymptotically,0,2,1.0,True,1,2,0.0,90.0,[0.0],1,False,Exact equivariance control where the persistent nondegenerate orbit assumption fails.

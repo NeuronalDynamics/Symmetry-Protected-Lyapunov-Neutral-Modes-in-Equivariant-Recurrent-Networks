@@ -1,0 +1,6 @@
+model,runs,seeds,hidden_size,train_steps,learning_rate,parameter_count
+broken_equivariant,24,6,16,120,0.003,1237
+equivariant,24,6,16,120,0.003,1237
+gru,24,6,16,120,0.002,994
+lstm,24,6,16,120,0.002,1346
+orthogonal_rnn,24,6,16,120,0.002,386

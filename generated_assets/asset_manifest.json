@@ -1,0 +1,170 @@
+[
+  {
+    "asset": "fig1_dimension_law_clean",
+    "data": "results/journal_full raw CSV tables",
+    "generator": "paper_runs/conference_fix.py and paper_runs/make_fig2_neutral_geometry_v2.py",
+    "kind": "main_figure",
+    "output": "draft_asset_generation_code/generated_assets/figures/fig1_dimension_law_clean.pdf"
+  },
+  {
+    "asset": "fig2_neutral_geometry_clean_v2",
+    "data": "results/journal_full raw CSV tables",
+    "generator": "paper_runs/conference_fix.py and paper_runs/make_fig2_neutral_geometry_v2.py",
+    "kind": "main_figure",
+    "output": "draft_asset_generation_code/generated_assets/figures/fig2_neutral_geometry_clean_v2.pdf"
+  },
+  {
+    "asset": "fig3_equivariant_rnn_clean",
+    "data": "results/journal_full raw CSV tables",
+    "generator": "paper_runs/conference_fix.py and paper_runs/make_fig2_neutral_geometry_v2.py",
+    "kind": "main_figure",
+    "output": "draft_asset_generation_code/generated_assets/figures/fig3_equivariant_rnn_clean.pdf"
+  },
+  {
+    "asset": "fig4_pseudogap_breaking_clean",
+    "data": "results/journal_full raw CSV tables",
+    "generator": "paper_runs/conference_fix.py and paper_runs/make_fig2_neutral_geometry_v2.py",
+    "kind": "main_figure",
+    "output": "draft_asset_generation_code/generated_assets/figures/fig4_pseudogap_breaking_clean.pdf"
+  },
+  {
+    "asset": "figure_A8_consequence_null",
+    "data": "results/journal_full/exp15_path_integration_benchmark and exp17_finite_grid_null",
+    "generator": "paper_runs/conference_fix.py::plot_fig5_consequence_null",
+    "kind": "appendix_figure",
+    "output": "draft_asset_generation_code/generated_assets/figures/figure_A8_consequence_null.pdf"
+  },
+  {
+    "asset": "figure5_learned_path_integration",
+    "data": "results/learned_equivariant_pi CSV tables",
+    "generator": "goldstone_lyapunov/experiments/exp31_learned_equivariant_path_integration.py plotting functions",
+    "kind": "main_or_appendix_figure",
+    "output": "draft_asset_generation_code/generated_assets/figures/figure5_learned_path_integration.pdf",
+    "source_figure": "fig_learned_task_performance"
+  },
+  {
+    "asset": "figure_A6_learned_symmetry_diagnostics",
+    "data": "results/learned_equivariant_pi CSV tables",
+    "generator": "goldstone_lyapunov/experiments/exp31_learned_equivariant_path_integration.py plotting functions",
+    "kind": "main_or_appendix_figure",
+    "output": "draft_asset_generation_code/generated_assets/figures/figure_A6_learned_symmetry_diagnostics.pdf",
+    "source_figure": "fig_learned_symmetry_diagnostics"
+  },
+  {
+    "asset": "figure_A7_learned_pseudogap",
+    "data": "results/learned_equivariant_pi CSV tables",
+    "generator": "goldstone_lyapunov/experiments/exp31_learned_equivariant_path_integration.py plotting functions",
+    "kind": "main_or_appendix_figure",
+    "output": "draft_asset_generation_code/generated_assets/figures/figure_A7_learned_pseudogap.pdf",
+    "source_figure": "fig_learned_pseudogap"
+  },
+  {
+    "asset": "figure_A5_task_schematic",
+    "data": "deterministic illustrative velocity trace",
+    "generator": "draft_asset_generation_code/run_all.py::generate_task_schematic",
+    "kind": "appendix_figure",
+    "output": "draft_asset_generation_code/generated_assets/figures/figure_A5_task_schematic.pdf"
+  },
+  {
+    "asset": "figure_A1_existing_training_curves",
+    "data": "results/iclr_final_checks and results/learned_equivariant_pi",
+    "generator": "draft_asset_generation_code/run_all.py plus exp32 plotting functions",
+    "kind": "appendix_figure",
+    "output": "draft_asset_generation_code/generated_assets/figures/figure_A1_existing_training_curves.pdf"
+  },
+  {
+    "asset": "figure_A2_stronger_baseline_training_curves",
+    "data": "results/iclr_final_checks and results/learned_equivariant_pi",
+    "generator": "draft_asset_generation_code/run_all.py plus exp32 plotting functions",
+    "kind": "appendix_figure",
+    "output": "draft_asset_generation_code/generated_assets/figures/figure_A2_stronger_baseline_training_curves.pdf"
+  },
+  {
+    "asset": "figure_A3_stronger_baseline_eval",
+    "data": "results/iclr_final_checks and results/learned_equivariant_pi",
+    "generator": "draft_asset_generation_code/run_all.py plus exp32 plotting functions",
+    "kind": "appendix_figure",
+    "output": "draft_asset_generation_code/generated_assets/figures/figure_A3_stronger_baseline_eval.pdf"
+  },
+  {
+    "asset": "figure_A4_parameter_matched_baselines",
+    "data": "results/iclr_final_checks and results/learned_equivariant_pi",
+    "generator": "draft_asset_generation_code/run_all.py plus exp32 plotting functions",
+    "kind": "appendix_figure",
+    "output": "draft_asset_generation_code/generated_assets/figures/figure_A4_parameter_matched_baselines.pdf"
+  },
+  {
+    "asset": "figure_A9_finite_time_chaos_diagnostics",
+    "data": "results/journal_full/exp25_finite_time_chaos_diagnostics",
+    "generator": "goldstone_lyapunov/experiments/exp25_finite_time_chaos_diagnostics.py",
+    "kind": "appendix_figure_archived_full_run",
+    "note": "Copied archived full-run PNG by default; rerun command is listed in rerun_commands.ps1.",
+    "output": "draft_asset_generation_code/generated_assets/figures/figure_A9_finite_time_chaos_diagnostics.png"
+  },
+  {
+    "asset": "figure_A10_large_chaotic_spectra",
+    "data": "results/journal_full/exp26_large_chaotic_spectra",
+    "generator": "goldstone_lyapunov/experiments/exp26_large_chaotic_spectra.py",
+    "kind": "appendix_figure_archived_full_run",
+    "note": "Copied archived full-run PNG by default; rerun command is listed in rerun_commands.ps1.",
+    "output": "draft_asset_generation_code/generated_assets/figures/figure_A10_large_chaotic_spectra.png"
+  },
+  {
+    "asset": "figure_A11_path_integration_heatmaps",
+    "data": "results/journal_full/exp21_path_integration_heatmaps",
+    "generator": "goldstone_lyapunov/experiments/exp21_path_integration_heatmaps.py",
+    "kind": "appendix_figure_archived_full_run",
+    "note": "Copied archived full-run PNG by default; rerun command is listed in rerun_commands.ps1.",
+    "output": "draft_asset_generation_code/generated_assets/figures/figure_A11_path_integration_heatmaps.png"
+  },
+  {
+    "asset": "figure_A12_gru_path_integration_sweep",
+    "data": "results/journal_full/exp29_gru_path_integration_sweep",
+    "generator": "goldstone_lyapunov/experiments/exp29_gru_path_integration_sweep.py",
+    "kind": "appendix_figure_archived_full_run",
+    "note": "Copied archived full-run PNG by default; rerun command is listed in rerun_commands.ps1.",
+    "output": "draft_asset_generation_code/generated_assets/figures/figure_A12_gru_path_integration_sweep.png"
+  },
+  {
+    "asset": "Table 1",
+    "data": "exp28_nontrivial_equivariant_rnn",
+    "generator": "generate_table1",
+    "kind": "table",
+    "output": "draft_asset_generation_code/generated_assets/tables/table1_nontrivial_equivariant_rnn_metrics.tex"
+  },
+  {
+    "asset": "Table A1",
+    "data": "manuscript claim hierarchy",
+    "generator": "generate_table_a1",
+    "kind": "table",
+    "output": "draft_asset_generation_code/generated_assets/tables/table_A1_claim_to_evidence_hierarchy.tex"
+  },
+  {
+    "asset": "Table A2",
+    "data": "results/conference_fix/autonomous_zero_diagnostic.csv",
+    "generator": "generate_table_a2",
+    "kind": "table",
+    "output": "draft_asset_generation_code/generated_assets/tables/table_A2_autonomous_zero_diagnostic.tex"
+  },
+  {
+    "asset": "Table A3",
+    "data": "results/learned_equivariant_pi",
+    "generator": "generate_table_a3",
+    "kind": "table",
+    "output": "draft_asset_generation_code/generated_assets/tables/table_A3_learned_diagnostics.tex"
+  },
+  {
+    "asset": "Table A4",
+    "data": "results/learned_equivariant_pi/model_registry.csv",
+    "generator": "generate_table_a4",
+    "kind": "table",
+    "output": "draft_asset_generation_code/generated_assets/tables/table_A4_training_configuration.tex"
+  },
+  {
+    "asset": "Table A5",
+    "data": "results/iclr_final_checks/stronger_baselines/baseline_sweep_summary.csv",
+    "generator": "generate_table_a5",
+    "kind": "table",
+    "output": "draft_asset_generation_code/generated_assets/tables/table_A5_stronger_baseline_check.tex"
+  }
+]

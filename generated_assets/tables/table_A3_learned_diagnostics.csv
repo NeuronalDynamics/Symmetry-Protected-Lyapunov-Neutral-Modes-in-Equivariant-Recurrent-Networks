@@ -1,0 +1,11 @@
+metric,value
+max trained exact step equivariance error,3.189e-08
+mean zero-input direct group-tangent exponent,-2.276e-06
+mean zero-input principal angle (deg),2.966e-02
+max tested principal angle (deg),9.115e+00
+pseudo-gap log lifetime correlation,0.9991
+broken_equivariant long OOD RMSE,0.2685 +/- 0.01
+equivariant long OOD RMSE,0.2433 +/- 0.011
+gru long OOD RMSE,1.731 +/- 0.0068
+lstm long OOD RMSE,1.686 +/- 0.022
+orthogonal_rnn long OOD RMSE,1.794 +/- 0.0038
