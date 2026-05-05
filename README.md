@@ -1,24 +1,25 @@
-# Draft Asset Generation Code
+# Symmetry-Protected Lyapunov Neutral Modes in Equivariant Recurrent Networks
 
 This folder contains the single entry point for regenerating the figures and
-tables used in the current Goldstone-Lyapunov draft.
+tables used in the current Symmetry-Protected Lyapunov Neutral Modes
+in Equivariant Recurrent Networks draft.
 
 ## Quick Check
 
 ```powershell
-python draft_asset_generation_code/run_all.py --check-only
+python run_all.py --check-only
 ```
 
 ## Generate Assets
 
 ```powershell
-python draft_asset_generation_code/run_all.py
+python run_all.py
 ```
 
 Generated files are written to:
 
 ```text
-draft_asset_generation_code/generated_assets/
+generated_assets/
 ```
 
 The default path regenerates the manuscript figures and tables from frozen raw
